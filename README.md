@@ -80,7 +80,7 @@ npm run build
 
 1. 登录 https://app.netlify.com/
 2. 点击 **Add new site → Import an existing project**
-3. 选择 GitHub 仓库 `gan-yu/gan-yu-website`
+3. 选择 GitHub 仓库 `showboat55/gan-yu-website`
 4. 配置：
    - **Branch to deploy**: `main`
    - **Build command**: `npm run build`
@@ -105,7 +105,7 @@ npm run build
 
 推送代码后，打开仓库 Secrets 页面：
 
-`https://github.com/gan-yu/gan-yu-website/settings/secrets/actions`
+`https://github.com/showboat55/gan-yu-website/settings/secrets/actions`
 
 点击 **New repository secret**，分别添加：
 
