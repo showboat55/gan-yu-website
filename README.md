@@ -63,18 +63,66 @@ npm run build
 
 本项目已包含 `.github/workflows/deploy.yml`，推送到 `main` 分支时会自动构建并部署到 Netlify。
 
-配置步骤：
+#### 1. 获取 Netlify Auth Token
 
-1. 在 Netlify 获取：
-   - **Personal access token**：https://app.netlify.com/user/applications/personal
-   - **Site ID**：在 Site settings → General → Site details 中查看
+访问 https://app.netlify.com/user/applications/personal
 
-2. 在 GitHub 仓库设置中添加 Secrets：
-   - `Settings → Secrets and variables → Actions → New repository secret`
-   - 添加 `NETLIFY_AUTH_TOKEN`（你的 Netlify token）
-   - 添加 `NETLIFY_SITE_ID`（你的站点 ID）
+点击 **New access token**：
+- **Name**: `GitHub Actions Deploy`
+- 点击 **Generate token**
+- **立即复制并保存**，关闭页面后无法再次查看
 
-3. 推送代码到 `main` 分支，Actions 会自动执行部署。
+这个就是 `NETLIFY_AUTH_TOKEN`。
+
+#### 2. 创建 Netlify 站点
+
+**方式 A：通过 GitHub 导入（推荐）**
+
+1. 登录 https://app.netlify.com/
+2. 点击 **Add new site → Import an existing project**
+3. 选择 GitHub 仓库 `gan-yu/gan-yu-website`
+4. 配置：
+   - **Branch to deploy**: `main`
+   - **Build command**: `npm run build`
+   - **Publish directory**: `dist`
+5. 点击 **Deploy site**
+
+**方式 B：手动创建空站点**
+
+1. 登录 https://app.netlify.com/
+2. 点击 **Add new site → Add manually**
+3. 输入 Site name，例如 `gan-yu-website`
+4. 点击 **Add site**
+
+#### 3. 获取 Netlify Site ID
+
+1. 进入站点后台
+2. 点击 **Site configuration**
+3. 在 **Site details** 下找到 **Site ID**
+4. 复制该字符串，这个就是 `NETLIFY_SITE_ID`
+
+#### 4. 在 GitHub 添加 Secrets
+
+推送代码后，打开仓库 Secrets 页面：
+
+`https://github.com/gan-yu/gan-yu-website/settings/secrets/actions`
+
+点击 **New repository secret**，分别添加：
+
+| Name | Value |
+|------|-------|
+| `NETLIFY_AUTH_TOKEN` | 步骤 1 复制的 token |
+| `NETLIFY_SITE_ID` | 步骤 3 复制的 site ID |
+
+#### 5. 触发自动部署
+
+1. 推送代码到 `main` 分支：
+   ```bash
+   git push origin main
+   ```
+2. 打开仓库 **Actions** 页面
+3. 确认 `Deploy to Netlify` 工作流正在运行
+4. 部署成功后，访问 Netlify 生成的域名即可
 
 工作流文件位置：[.github/workflows/deploy.yml](.github/workflows/deploy.yml)
 
