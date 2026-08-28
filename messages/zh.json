@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "甘宇 — 人工智能教育专业学生",
+    "description": "甘宇的个人网站，展示人工智能教育专业背景、技能、教育经历与联系方式。",
+    "ogTitle": "甘宇 — 人工智能教育专业学生",
+    "ogDescription": "了解甘宇的教育背景、技能栈与联系方式。"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "关于",
+    "skills": "技能",
+    "education": "教育",
+    "contact": "联系",
+    "github": "GitHub"
+  },
+  "hero": {
+    "tag": "// 甘宇",
+    "name": "甘宇",
+    "role": "学生 · 青岛大学 · 人工智能教育专业",
+    "introZh": "注重理论与实践结合，持续积累专业能力与综合素养。",
+    "introEn": "Focused on combining theory with practice to build comprehensive abilities.",
+    "ctaContact": "联系我",
+    "ctaGithub": "查看 GitHub",
+    "scroll": "向下滚动"
+  },
+  "about": {
+    "sectionTitle": "关于我",
+    "title": "用教育与技术的视角，探索人工智能的无限可能。",
+    "bioZh": "我是青岛大学人工智能教育专业的大一新生，注重理论与实践结合，持续积累专业能力与综合素养。做事逻辑清晰、耐心细致，拥有良好的问题分析与落地执行能力。乐于接受挑战，抗压能力强，始终保持积极进取的学习心态。",
+    "bioEn": "I am a freshman majoring in AI Education at Qingdao University. I focus on combining theoretical knowledge with practical experience to improve my comprehensive ability. I have clear logical thinking, good pressure resistance and problem-solving skills. With a positive learning attitude, I am willing to take challenges and keep improving myself.",
+    "cards": {
+      "university": {
+        "label": "就读院校",
+        "value": "青岛大学",
+        "desc": "大一新生"
+      },
+      "major": {
+        "label": "专业方向",
+        "value": "人工智能教育",
+        "desc": "AI Education"
+      },
+      "cert": {
+        "label": "专业认证",
+        "value": "达摩院人工智能训练师",
+        "desc": "阿里巴巴达摩院"
+      }
+    }
+  },
+  "skills": {
+    "sectionTitle": "技能",
+    "title": "技术栈与能力",
+    "items": {
+      "python": "Python",
+      "ml": "机器学习基础",
+      "data": "数据分析",
+      "aiEd": "AI 教育工具",
+      "office": "办公软件",
+      "frontend": "前端基础",
+      "git": "Git / GitHub"
+    }
+  },
+  "education": {
+    "sectionTitle": "教育与证书",
+    "title": "教育经历与专业认证",
+    "items": {
+      "university": {
+        "period": "2026.09 - 至今",
+        "title": "青岛大学",
+        "subtitle": "人工智能教育专业",
+        "desc": "本科在读，系统学习人工智能与教育技术相关知识。"
+      },
+      "certificate": {
+        "period": "2025",
+        "title": "阿里巴巴达摩院人工智能训练师证书",
+        "subtitle": "自主考取",
+        "desc": "自主考取，体现主动学习与专业能力。"
+      }
+    }
+  },
+  "contact": {
+    "sectionTitle": "联系",
+    "title": "一起交流",
+    "subtitle": "有想法、机会或问题？欢迎随时联系我。",
+    "emailPrimary": "showboat_55@qq.com",
+    "emailSecondary": "2874970163@qq.com",
+    "github": "showboat55",
+    "cta": "联系我"
+  },
+  "footer": {
+    "copyright": "© {year} 甘宇 Gan Yu. 保留所有权利。",
+    "backToTop": "返回顶部",
+    "icp": "京ICP备XXXXXXXX号-1（备案号待填写）"
+  }
+}

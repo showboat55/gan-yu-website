@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "title": "Gan Yu — AI Education Student",
+    "description": "Personal website of Gan Yu, showcasing background in AI Education, skills, education, and contact information.",
+    "ogTitle": "Gan Yu — AI Education Student",
+    "ogDescription": "Learn about Gan Yu's education, skills, and contact details."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "education": "Education",
+    "contact": "Contact",
+    "github": "GitHub"
+  },
+  "hero": {
+    "tag": "// GAN YU",
+    "name": "Gan Yu",
+    "role": "Student · Qingdao University · AI Education",
+    "introZh": "注重理论与实践结合，持续积累专业能力与综合素养。",
+    "introEn": "Focused on combining theory with practice to build comprehensive abilities.",
+    "ctaContact": "Contact Me",
+    "ctaGithub": "View GitHub",
+    "scroll": "Scroll Down"
+  },
+  "about": {
+    "sectionTitle": "About",
+    "title": "Exploring AI through the lens of education and technology.",
+    "bioZh": "我是青岛大学人工智能教育专业的大一新生，注重理论与实践结合，持续积累专业能力与综合素养。做事逻辑清晰、耐心细致，拥有良好的问题分析与落地执行能力。乐于接受挑战，抗压能力强，始终保持积极进取的学习心态。",
+    "bioEn": "I am a freshman majoring in AI Education at Qingdao University. I focus on combining theoretical knowledge with practical experience to improve my comprehensive ability. I have clear logical thinking, good pressure resistance and problem-solving skills. With a positive learning attitude, I am willing to take challenges and keep improving myself.",
+    "cards": {
+      "university": {
+        "label": "University",
+        "value": "Qingdao University",
+        "desc": "Freshman"
+      },
+      "major": {
+        "label": "Major",
+        "value": "AI Education",
+        "desc": "Artificial Intelligence in Education"
+      },
+      "cert": {
+        "label": "Certification",
+        "value": "DAMO AI Trainer",
+        "desc": "Alibaba DAMO Academy"
+      }
+    }
+  },
+  "skills": {
+    "sectionTitle": "Skills",
+    "title": "Tech Stack & Abilities",
+    "items": {
+      "python": "Python",
+      "ml": "Machine Learning Basics",
+      "data": "Data Analysis",
+      "aiEd": "AI Education Tools",
+      "office": "Office Software",
+      "frontend": "Frontend Basics",
+      "git": "Git / GitHub"
+    }
+  },
+  "education": {
+    "sectionTitle": "Education & Certificates",
+    "title": "Education & Certifications",
+    "items": {
+      "university": {
+        "period": "2026.09 - Present",
+        "title": "Qingdao University",
+        "subtitle": "AI Education",
+        "desc": "Undergraduate student, studying AI and educational technology."
+      },
+      "certificate": {
+        "period": "2025",
+        "title": "Alibaba DAMO Academy AI Trainer Certificate",
+        "subtitle": "Self-study certification",
+        "desc": "Earned through self-directed learning, demonstrating initiative and professional ability."
+      }
+    }
+  },
+  "contact": {
+    "sectionTitle": "Contact",
+    "title": "Let's Connect",
+    "subtitle": "Have an idea, opportunity, or question? Feel free to reach out.",
+    "emailPrimary": "showboat_55@qq.com",
+    "emailSecondary": "2874970163@qq.com",
+    "github": "showboat55",
+    "cta": "Contact Me"
+  },
+  "footer": {
+    "copyright": "© {year} Gan Yu. All rights reserved.",
+    "backToTop": "Back to Top",
+    "icp": "京ICP备XXXXXXXX号-1 (ICP filing number pending)"
+  }
+}
